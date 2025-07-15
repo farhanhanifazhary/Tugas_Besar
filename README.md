@@ -8,3 +8,5 @@ User terdiri dari 3:
 
 Admin hanya ada 1: <br>
 username: dwarves1 pass: fully active
+
+login admin berada di folder admin.
