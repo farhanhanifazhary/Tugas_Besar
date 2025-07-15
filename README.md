@@ -6,5 +6,5 @@ User terdiri dari 3:
 2. email: rapipi@gmail.com pass: dwarves0
 3. email: snow@gmail.com pass: dwarves
 
-Admin hanya ada 1:
+Admin hanya ada 1: <br>
 username: dwarves1 pass: fully active
