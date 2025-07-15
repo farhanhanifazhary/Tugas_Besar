@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+.tnc-container {
+    background-color: #ffffff;
+    padding: 4rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.tnc-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.tnc-text {
+    text-align: justify;
+    line-height: 1.8;
+    color: #495057;
+}
+.tnc-list {
+    padding-left: 2rem;
+    text-align: justify;
+    line-height: 1.8;
+    color: #495057;
+}
+hr {
+    margin: 2rem 0;
+}

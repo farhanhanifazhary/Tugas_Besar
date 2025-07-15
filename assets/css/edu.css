@@ -1,0 +1,174 @@
+html {
+  scroll-padding-top: 50px;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: #4A90E2;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.section-light {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.section-dark {
+  background-color: #0d6efd;
+  padding: 60px 0;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.3s;
+}
+
+.delay-2 {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#courses {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 100rem;
+}
+
+#instagram {
+  padding-right: 1rem;
+}
+
+.footer {
+  background-color: #4A90E2;
+  color: green;
+}
+
+.section-bg {
+    background-color: #F8F9FA;
+}
+.stat-card {
+    background-color: #4A90E2;
+    color: white;
+}
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+.timeline > li:before, .timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li .timeline-panel {
+    width: 45%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+.timeline > li .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #4A90E2;
+    z-index: 100;
+    border-radius: 50%;
+}
+/* Responsif untuk Timeline */
+@media (max-width: 767px) {
+    .timeline:before {
+        left: 40px;
+    }
+    .timeline > li .timeline-panel {
+        width: calc(100% - 90px);
+        float: right;
+    }
+    .timeline > li .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+}
+
+/* Styling untuk Teks di Bawah Judul Modal */
+.modal-title-subtext {
+    color: rgba(255, 255, 255); /* Warna putih transparan */
+    font-size: 0.9rem; /* Sedikit lebih kecil */
+}
+
+/* Styling untuk Link di dalam Teks tersebut */
+.modal-title-subtext a {
+    color: #FFFFFF; /* OPSI 1: Warna Putih */
+    font-weight: 600; /* Dibuat tebal */
+    text-decoration: none; /* Menghilangkan garis bawah agar lebih bersih */
+}
+
+.modal-title-subtext a:hover {
+    text-decoration: underline; /* Garis bawah muncul saat disentuh kursor */
+}
+

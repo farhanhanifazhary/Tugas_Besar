@@ -1,0 +1,70 @@
+:root {
+    --brand-secondary: #ff6825;
+}
+body {
+    background-color: #f8f9fa;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background-color: #4A90E2;
+    padding: 1rem;
+    transition: all 0.3s;
+    z-index: 1000;
+    border-right: 1px solid #e9ecef;
+}
+.sidebar .nav-link,
+.offcanvas .nav-link {
+    color: #495057;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+.sidebar .nav-link .bi,
+.offcanvas .nav-link .bi {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover,
+.offcanvas .nav-link.active,
+.offcanvas .nav-link:hover {
+    background-color: #e9ecef;
+    color: #0d6efd;
+}
+.sidebar .logout-btn,
+.offcanvas .logout-btn {
+    background-color: #f8d7da;
+    color: #842029;
+    font-weight: 600;
+}
+.sidebar .logout-btn:hover,
+.offcanvas .logout-btn:hover {
+    background-color: #f5c2c7;
+    color: #6a1a21;
+}
+.main-content {
+    margin-left: 260px;
+    padding: 1.5rem;
+}
+@media (max-width: 992px) {
+    .sidebar {
+        left: -260px;
+    }
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+#mobileSidebar {
+    background-color: #4A90E2;
+    padding: 1rem;
+    transition: all 0.3s;
+    border-right: 1px solid #e9ecef;
+}
